@@ -55,7 +55,18 @@ header a {
 	padding: 16px 32px;
 }
 
-@media (max-width: 900px) {
+footer {
+	color: white;
+	background-image: linear-gradient(
+			rgba(39, 32, 68, 0.9),
+			rgba(39, 32, 68, 0.9)
+		),
+		url(../images/waterford-footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (max-width: 960px) {
 	header {
 		padding: 60px 0;
 	}
