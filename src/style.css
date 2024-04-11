@@ -31,6 +31,10 @@ section {
 	padding: 100px 0;
 }
 
+section.section-2nd {
+	background-color: #f8f8f8;
+}
+
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
 		url("../images/Waterford-Quay.jpg");
