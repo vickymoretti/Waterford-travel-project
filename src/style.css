@@ -25,10 +25,29 @@ body {
 	grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-col {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.card {
+	background-color: white;
+}
+
+.card h4 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.5;
+	color: #272044;
+}
+
 section {
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 100px;
 }
 
 section.section-2nd {
