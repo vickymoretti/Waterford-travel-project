@@ -15,6 +15,7 @@ body {
 
 .img-responsive {
 	max-width: 100%;
+	display: block;
 }
 
 .grid-2-col {
@@ -35,13 +36,29 @@ body {
 
 .card {
 	background-color: white;
+	margin: 30px 0;
 }
 
-.card h4 {
+.card-body {
+	padding: 30px;
+}
+
+.card-footer {
+	padding: 0 30px 30px;
+}
+
+.btn {
+	display: block;
+	color: white;
 	font-weight: 700;
-	font-size: 24px;
-	line-height: 1.5;
-	color: #272044;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 16px;
+	background-color: #462cb3;
+	text-decoration: none;
 }
 
 section {
@@ -120,6 +137,22 @@ main h3 {
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 1.5;
+	color: #272044;
+	margin: 0;
+}
+
+main h4 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1;
+	color: #272044;
+	margin: 0;
+}
+
+main h5 {
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 1;
 	color: #272044;
 	margin: 0;
 }
