@@ -48,6 +48,7 @@ body {
 
 .card-header.grid {
 	grid-gap: 0;
+	height: 50%;
 }
 
 .card-body {
