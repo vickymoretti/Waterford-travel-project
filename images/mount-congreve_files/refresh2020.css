@@ -1,0 +1,63 @@
+.c-block.notification {
+  padding: 20px 0px;
+}
+.c-block.notification .button {
+  margin-left: 15px;
+}
+
+.o-landing-card .o-card-content {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.o-landing-card .o-card-image-container::before {
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s, scale .4s;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(87,197,212,.7);
+}
+.column:nth-of-type(2n+2) .o-card-image-container::before {
+  background-color: rgba(226,192,68,.7);
+}
+.column:nth-of-type(3n+3) .o-card-image-container::before {
+  background-color: rgba(183,49,44,.7);
+}
+.column:nth-of-type(4n+4) .o-card-image-container::before {
+  background-color: rgba(23,55,83,.7);
+}
+.column:nth-of-type(5n+5) .o-card-image-container::before {
+  background-color: rgba(16,139,162,.7);
+}
+
+/* Added by Sam (02-09-2020) Did not want to overwrite CSS correctly with styleguide as didn't know if it wasn't being used for a specific reason */
+.column .o-card-image-container.no-bg::before {
+  background: none !important;
+}
+
+.o-landing-card .o-card-content .o-card-image-container svg {
+  z-index: 2;
+}
+
+.o-landing-card:hover .o-card-content .o-card__title{
+  z-index: 2;
+}
+.o-landing-card .o-card-content .o-card-image-container .o-card__image {
+    transition: scale .8s;
+    transform-origin: top;
+    overflow: hidden;
+}
+.o-landing-card .o-card-content .o-card-image-container:hover .o-card__image {
+    scale: 1.2;
+}
+
+.o-listing-card--portrait .o-listing-card-image-container .o-listing-card__picture {
+  background-position: 0% 0%;
+  background-size: contain;
+}

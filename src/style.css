@@ -59,6 +59,10 @@ body {
 	padding: 0 30px 30px;
 }
 
+.card-section-3 {
+	background-color: #f8f8f8;
+}
+
 .btn {
 	display: block;
 	color: white;
