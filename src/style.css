@@ -19,7 +19,26 @@ body {
 	height: 100%;
 }
 
-.img-hover img {
+.img-castle {
+	max-width: 100%;
+	height: 100%;
+}
+
+.img-greenway {
+	max-width: 100%;
+	height: 100%;
+}
+
+.img-bath {
+	max-width: 100%;
+	height: 100%;
+}
+
+.img-family {
+	height: 100%;
+}
+
+.img-hover .boat-trip {
 	max-width: 100%;
 	transition: all 0.3s;
 	display: block;
@@ -95,7 +114,7 @@ body {
 }
 
 .card-section-3 {
-	background-color: #f8f8f8;
+	background-color: red;
 }
 
 .btn {
