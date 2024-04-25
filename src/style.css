@@ -34,45 +34,11 @@ body {
 	height: 100%;
 }
 
-.img-family {
-	height: 100%;
+.img-hover:hover {
+	transform: scale(1.2);
+	transition: all 200ms ease-in-out;
 }
 
-.img-hover .boat-trip {
-	max-width: 100%;
-	transition: all 0.3s;
-	display: block;
-	width: 100%;
-	height: auto;
-	transform: scale(1);
-}
-
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: 0.5s ease;
-	background: #272044;
-}
-.overlay-text {
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-.img-hover:hover .overlay {
-	opacity: 1;
-}
 .embed {
 	width: 100%;
 	aspect-ratio: 1/1;
@@ -114,7 +80,18 @@ body {
 }
 
 .card-section-3 {
-	background-color: red;
+	background-color: #f8f8f8;
+}
+
+.things-to-do {
+	margin: 0;
+	height: 0;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.things-to-do a {
+	text-decoration: none;
 }
 
 .btn {
@@ -302,6 +279,10 @@ footer a {
 
 	.card-header img {
 		display: none;
+	}
+
+	.card-header.card-visible img {
+		display: block;
 	}
 
 	.embed {
