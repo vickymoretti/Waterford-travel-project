@@ -91,8 +91,22 @@ body {
 	text-align: center;
 }
 
-.things-to-do a {
+.button-section3 {
 	text-decoration: none;
+	display: block;
+	color: #462cb3;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 16px;
+}
+
+.button-section3:hover {
+	background-color: #462cb3;
+	color: #f8f8f8;
 }
 
 .btn {
